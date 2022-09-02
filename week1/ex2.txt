@@ -1,0 +1,16 @@
+  156  man git
+  157  git remote
+  158  git remote add origin https://github.com/KeepError/OS-Course.git
+  160  history
+  162  ./ex2,sh
+  163  ./ex2.sh
+  164  sudo ./ex2.sh
+  165  nano ex2.sh
+  166  ls\ncat ex1.txt\ncd ..\ncd week1\nclear\nhistory > ~/week1/ex2.txt\n\n
+  167  ls\ncat ex1.txt\ncd ..\ncd week1\nclear\nhistory > ex2.txt\n
+  169  nano ex2.txt
+  170  ls
+  171  cat ex1.txt
+  172  cd ..
+  173  cd week1
+  174  clear
