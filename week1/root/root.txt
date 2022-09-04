@@ -8,14 +8,14 @@ desktopfs-pkgs.txt
 lost+found
 home
 boot
-opt
 mnt
 root
+opt
+usr
 var
+dev
 run
 etc
-usr
-dev
 tmp
 sys
 proc
