@@ -9,7 +9,7 @@ int main(void) {
     float float_value = FLT_MAX;
     double double_value = DBL_MAX;
 
-    printf("Type: INTEGER\nSize:%d\nValue: %d\n\n", sizeof(integer_value), integer_value);
+    printf("Type: INTEGER\nSize: %d\nValue: %d\n\n", sizeof(integer_value), integer_value);
     printf("Type: UNSIGNED SHORT INTEGER\nSize: %d\nValue: %d\n\n", sizeof(unsigned_short_integer_value), unsigned_short_integer_value);
     printf("Type: SIGNED LONG INTEGER\nSize: %d\nValue: %ld\n\n", sizeof(signed_long_int_value), signed_long_int_value);
     printf("Type: FLOAT\nSize: %d\nValue: %f\n\n", sizeof(float_value), float_value);
