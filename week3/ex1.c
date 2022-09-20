@@ -25,5 +25,7 @@ int main(){
 		*(p+i) = foo(*(p+i));
 	}
 
+	free(p);
+
 	return EXIT_SUCCESS;
 }
