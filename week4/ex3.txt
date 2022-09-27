@@ -1,0 +1,4 @@
+When fork() is used, the current process is split into 2 different processes.
+Each fork() call doubles the number of processes because it applies to all processes already created.
+So in first case we get 2^3 = 8 process
+And in second case we get 2^5 = 32 processes
