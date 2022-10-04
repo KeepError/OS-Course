@@ -1,0 +1,3 @@
+The processor supports a certain number of threads that can be executed simultaneously.
+
+In this case, the processor has 4 processor cores with 3 simultaneous threads (SMT) on each. Thus, the maximum number of threads running simultaneously is 12. More threads will not increase performance because they are not executed simultaneously.
