@@ -1,0 +1,3 @@
+The processor supports a certain number of threads that can be executed simultaneously, so starting from some number of threads, performance will not increase.
+
+Compared to the results of exercise 3, the overall performance has increased because all threads are always executed until the program has reached N. Unlike exercise 3, where the first segments will be calculated faster than the last.
