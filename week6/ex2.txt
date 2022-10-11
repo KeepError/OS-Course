@@ -1,0 +1,3 @@
+By comparing results: average turnaround time is increased, but average waiting time is decreased.
+
+This is because the scheduler selects the jobs with the shortest execution time, reducing the waiting time for other jobs (except the last one).
