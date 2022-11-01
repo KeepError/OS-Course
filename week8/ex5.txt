@@ -1,0 +1,3 @@
+Physical address is an address (location) in one memory component. Virtual address is an address that is mapped to physical one of some memory component.
+Physical addresses are limited in size (of memory unit), but virtual ones are not.
+Physical addresses always exist and are the same, but virtual ones are dynamically mapped by operating systems.

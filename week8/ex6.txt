@@ -1,0 +1,4 @@
+2^13 = 8199 = 8 * 1024 KB, so 13 bits are needed for byte offset.
+16 - 13 = 3 bits are needed for indexing page.
+2 ^ 3 = 8 entries needed for table.
+Answer: 8
