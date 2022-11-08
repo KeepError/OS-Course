@@ -1,0 +1,10 @@
+Result depends on number of bits that are allocated for the counter and maximum number of pages in memory.
+Page will be flushed in {maximum number of pages} or {counter bits + 1} after reference if it will not be referenced again
+So let's suppose we allocated 32 bits for counter and have 5 maximum number of pages
+
+So to maximize hit/miss ratio we may have references:
+1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 ... and so on
+
+To minimize:
+1 2 3 4 5 6 1 2 3 4 5 6 1 2 3 4 5 6 ...
+We reference pages immediately after their flushing
