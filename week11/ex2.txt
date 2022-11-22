@@ -1,0 +1,6 @@
+usr
+lost+found
+bin
+file2
+ex2
+file1
