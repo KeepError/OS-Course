@@ -1,0 +1,5 @@
+Recovery - effective when it is possible to change the resource owner without consequences, in other cases it involves checkpointing or kills a process.
+
+Prevention - makes it so that deadlock can't happen, it's very cheap, but it is not effective in the temporary deadlocking issue.
+
+Avoidance - keeps track of which states are safe and which are unsafe, it is important that system should have information about available resources and requested resources.
